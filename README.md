@@ -1,5 +1,10 @@
 # 🎌 AnimeVerse
 
+**Nama:** Higen Putra Perangin Angin  
+**NIM:** 211401108
+
+---
+
 **AnimeVerse** adalah aplikasi mobile berbasis Flutter untuk menjelajahi dan mengelola katalog anime favorit Anda. Aplikasi ini memanfaatkan [Jikan API](https://jikan.moe) untuk menyediakan data anime yang lengkap dan terpercaya.
 
 ![Flutter](https://img.shields.io/badge/Flutter-3.9.0+-02569B?logo=flutter&logoColor=white)
@@ -195,11 +200,75 @@ Aplikasi menggunakan Jikan API yang bersifat public. Tidak ada API key yang dipe
 
 ## 📱 Screenshots
 
-*(Tambahkan screenshot aplikasi di sini jika tersedia)*
+Berikut adalah tampilan berbagai halaman dalam aplikasi AnimeVerse:
 
-## 🤝 Kontribusi
+### 🔐 Halaman Login (Sign In)
 
-Kontribusi sangat diterima! Silakan lakukan:
+![Halaman Login](assets/screenshots/tampilan_login.png)
+
+Halaman login memungkinkan pengguna untuk masuk ke aplikasi menggunakan:
+- **Email dan Password** - Login dengan akun yang sudah terdaftar
+- **Google Sign-In** - Login cepat menggunakan akun Google
+- **Link ke Sign Up** - Bagi pengguna yang belum memiliki akun
+
+Tampilan dirancang dengan tema dark blue yang elegan dan user-friendly.
+
+---
+
+### 📝 Halaman Registrasi (Sign Up)
+
+![Halaman Sign Up](assets/screenshots/tampilan_signUp.png)
+
+Halaman registrasi untuk membuat akun baru:
+- Form registrasi dengan validasi email dan password
+- Opsi untuk daftar menggunakan Email/Password
+- Opsi Google Sign-In untuk pendaftaran cepat
+- Link kembali ke halaman login
+
+---
+
+### 🏠 Halaman Home
+
+![Halaman Home](assets/screenshots/tampilan_home.png)
+
+Halaman utama aplikasi menampilkan:
+- **Bar Pencarian** - Cari anime berdasarkan judul dengan real-time search
+- **Filter Genre** - Filter anime berdasarkan genre (Action, Comedy, Drama, dll)
+- **Grid Anime** - Tampilan grid kartu anime dengan poster, judul, dan rating
+- **Infinite Scroll** - Scroll otomatis untuk memuat lebih banyak anime
+- **Pull to Refresh** - Refresh data dengan menarik layar ke bawah
+
+Setiap kartu anime menampilkan poster, judul, genre, dan rating untuk membantu pengguna menemukan anime yang menarik.
+
+---
+
+### ⭐ Halaman Favorit
+
+![Halaman Favorit](assets/screenshots/tampilan_favorit.png)
+
+Halaman untuk melihat dan mengelola anime favorit:
+- **Daftar Favorit** - Semua anime yang telah disimpan sebagai favorit
+- **Pencarian Favorit** - Cari anime favorit berdasarkan judul
+- **Penyimpanan Lokal** - Data favorit tersimpan secara lokal dan persisten
+- **Empty State** - Pesan informatif jika belum ada favorit
+
+Pengguna dapat dengan mudah mengakses anime favorit mereka kapan saja tanpa perlu mencari ulang.
+
+---
+
+### 👤 Halaman Profile
+
+![Halaman Profile](assets/screenshots/tampilan_profile.png)
+
+Halaman profil pengguna menampilkan:
+- **Informasi Akun** - Email dan nama pengguna dari Firebase Auth
+- **Pengaturan Akun** - Update nama dan password
+- **Logout** - Keluar dari akun dengan aman
+- **Tema Aplikasi** - Informasi tentang aplikasi dan versi
+
+Halaman ini memungkinkan pengguna untuk mengelola profil dan preferensi akun mereka.
+
+
 
 1. Fork repository ini
 2. Buat branch fitur (`git checkout -b feature/AmazingFeature`)
