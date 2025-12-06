@@ -242,6 +242,22 @@ Setiap kartu anime menampilkan poster, judul, genre, dan rating untuk membantu p
 
 ---
 
+### 📖 Halaman Detail Anime
+
+![Halaman Detail Anime](assets/screenshots/tampilan_tab_anime.png)
+
+Halaman detail anime menampilkan informasi lengkap tentang anime yang dipilih:
+- **Header Image** - Poster besar anime dengan efek parallax scrolling
+- **Judul & Genre** - Informasi utama anime ditampilkan di header
+- **Tombol Favorit** - Tambah atau hapus anime dari daftar favorit
+- **Rating & Episode** - Rating bintang dan jumlah total episode
+- **Sinopsis** - Deskripsi lengkap tentang cerita anime
+- **Back Navigation** - Kembali ke halaman sebelumnya dengan mudah
+
+Halaman ini memberikan pengalaman yang imersif untuk menjelajahi detail setiap anime sebelum menambahkannya ke favorit.
+
+---
+
 ### ⭐ Halaman Favorit
 
 ![Halaman Favorit](assets/screenshots/tampilan_favorit.png)
