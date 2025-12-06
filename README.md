@@ -124,6 +124,23 @@ flutter run -d ios
 flutter run -d chrome
 ```
 
+### 📦 Download APK (Pre-built)
+
+Untuk pengguna yang ingin langsung menggunakan aplikasi tanpa build dari source code, Anda bisa download APK release versi **1.0.0**:
+
+**📥 [Download AnimeVerse v1.0.0 APK](release/anime_verse-1.0.0.apk)**
+
+**Cara Install:**
+1. Download file `anime_verse-1.0.0.apk` dari folder `release/`
+2. Aktifkan **"Install from Unknown Sources"** di pengaturan Android Anda
+3. Buka file APK yang sudah didownload
+4. Ikuti instruksi instalasi
+
+**Catatan:**
+- Pastikan perangkat Android Anda menggunakan Android 5.0 (API 21) atau lebih tinggi
+- File APK ini sudah di-sign dan siap untuk diinstall
+- Versi: **1.0.0+1**
+
 ## 📁 Struktur Proyek
 
 ```
